@@ -1,0 +1,238 @@
+{
+  "flows": [
+    {
+      "id": "9570153452646062",
+      "appId": "org.onosproject.fwd",
+      "groupId": 0,
+      "priority": 10,
+      "timeout": 10,
+      "isPermanent": false,
+      "deviceId": "of:0000000000000004",
+      "state": "PENDING_ADD",
+      "life": 0,
+      "packets": 0,
+      "bytes": 0,
+      "lastSeen": 1521722822631,
+      "treatment": {
+        "instructions": [
+          {
+            "type": "OUTPUT",
+            "port": 2
+          }
+        ],
+        "deferred": []
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_DST",
+            "mac": "A2:83:85:81:8F:0B"
+          },
+          {
+            "type": "IN_PORT",
+            "port": 1
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "82:0F:0C:C6:DD:A7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9570153452646093",
+      "appId": "org.onosproject.fwd",
+      "groupId": 0,
+      "priority": 10,
+      "timeout": 10,
+      "isPermanent": false,
+      "deviceId": "of:0000000000000004",
+      "state": "PENDING_ADD",
+      "life": 0,
+      "packets": 0,
+      "bytes": 0,
+      "lastSeen": 1521722822634,
+      "treatment": {
+        "instructions": [
+          {
+            "type": "OUTPUT",
+            "port": 1
+          }
+        ],
+        "deferred": []
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_DST",
+            "mac": "82:0F:0C:C6:DD:A7"
+          },
+          {
+            "type": "IN_PORT",
+            "port": 2
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "A2:83:85:81:8F:0B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9570153452586542",
+      "appId": "org.onosproject.fwd",
+      "groupId": 0,
+      "priority": 10,
+      "timeout": 10,
+      "isPermanent": false,
+      "deviceId": "of:0000000000000002",
+      "state": "PENDING_ADD",
+      "life": 0,
+      "packets": 0,
+      "bytes": 0,
+      "lastSeen": 1521722822632,
+      "treatment": {
+        "instructions": [
+          {
+            "type": "OUTPUT",
+            "port": 2
+          }
+        ],
+        "deferred": []
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_DST",
+            "mac": "A2:83:85:81:8F:0B"
+          },
+          {
+            "type": "IN_PORT",
+            "port": 3
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "82:0F:0C:C6:DD:A7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9570153452586511",
+      "appId": "org.onosproject.fwd",
+      "groupId": 0,
+      "priority": 10,
+      "timeout": 10,
+      "isPermanent": false,
+      "deviceId": "of:0000000000000002",
+      "state": "PENDING_ADD",
+      "life": 0,
+      "packets": 0,
+      "bytes": 0,
+      "lastSeen": 1521722822633,
+      "treatment": {
+        "instructions": [
+          {
+            "type": "OUTPUT",
+            "port": 3
+          }
+        ],
+        "deferred": []
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_DST",
+            "mac": "82:0F:0C:C6:DD:A7"
+          },
+          {
+            "type": "IN_PORT",
+            "port": 2
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "A2:83:85:81:8F:0B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9570153452616302",
+      "appId": "org.onosproject.fwd",
+      "groupId": 0,
+      "priority": 10,
+      "timeout": 10,
+      "isPermanent": false,
+      "deviceId": "of:0000000000000003",
+      "state": "PENDING_ADD",
+      "life": 0,
+      "packets": 0,
+      "bytes": 0,
+      "lastSeen": 1521722822631,
+      "treatment": {
+        "instructions": [
+          {
+            "type": "OUTPUT",
+            "port": 3
+          }
+        ],
+        "deferred": []
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_DST",
+            "mac": "A2:83:85:81:8F:0B"
+          },
+          {
+            "type": "IN_PORT",
+            "port": 2
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "82:0F:0C:C6:DD:A7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9570153452616333",
+      "appId": "org.onosproject.fwd",
+      "groupId": 0,
+      "priority": 10,
+      "timeout": 10,
+      "isPermanent": false,
+      "deviceId": "of:0000000000000003",
+      "state": "PENDING_ADD",
+      "life": 0,
+      "packets": 0,
+      "bytes": 0,
+      "lastSeen": 1521722822634,
+      "treatment": {
+        "instructions": [
+          {
+            "type": "OUTPUT",
+            "port": 2
+          }
+        ],
+        "deferred": []
+      },
+      "selector": {
+        "criteria": [
+          {
+            "type": "ETH_DST",
+            "mac": "82:0F:0C:C6:DD:A7"
+          },
+          {
+            "type": "IN_PORT",
+            "port": 3
+          },
+          {
+            "type": "ETH_SRC",
+            "mac": "A2:83:85:81:8F:0B"
+          }
+        ]
+      }
+    }
+  ]
+}
